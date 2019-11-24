@@ -3,14 +3,18 @@
     display: flex;
     background-color: rgb(239, 223, 253);
     flex-wrap: wrap;
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
     padding: 15px;
     margin: 15px;
     }
 
 .fizz {
     background-color: rgb(174, 102, 241);
-    color: whitesmoke
-    padding: 15px;
+    padding: 55px;
     margin: 15px;
     width: 300px;
     height: 150px;
@@ -19,8 +23,7 @@
 
 .buzz{
     background-color: rgb(57, 12, 100);
-    color: whitesmoke
-    padding: 15px;
+    padding: 55px;
     margin: 15px;
     width: 300px;
     height: 150px;
@@ -29,8 +32,7 @@
 
 .fizzbuzz {
     background-color: rgb(43, 6, 78);
-    color: whitesmoke
-    padding: 15px;
+    padding: 55px;
     margin: 15px;
     width: 300px;
     height: 150px;
@@ -38,8 +40,7 @@
 }
 .regular {
     background-color: rgb(41, 54, 241);
-    color: whitesmoke
-    padding: 15px;
+    padding: 55px;
     margin: 15px;
     width: 300px;
     height: 150px;

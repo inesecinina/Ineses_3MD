@@ -8,13 +8,13 @@ const container = document.querySelector('#container');
     const miniDiv = document.createElement('div');
     miniDiv.id = "miniDiv"+i;
     if(i%3===0 && i%5===0) {
-        miniDiv.innerText = i+" = FizzBuzz";
+        miniDiv.innerText = i+"  FizzBuzz";
         miniDiv.classList.add("fizzbuzz");
     } else if (i%5===0){
-        miniDiv.innerText = i+" = Buzz";
+        miniDiv.innerText = i+"  Buzz";
         miniDiv.classList.add("buzz");
     } else if (i%3===0 ) {
-        miniDiv.innerText = i+" = Fizz";
+        miniDiv.innerText = i+"  Fizz";
         miniDiv.classList.add("fizz");
     } else {
         miniDiv.innerText = i;
