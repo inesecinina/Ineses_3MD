@@ -1,0 +1,46 @@
+.big_cont{
+    display: flex;
+    background-color: rgb(211, 173, 247);
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 15px;
+    }
+
+.fizz {
+    background-color: rgb(174, 102, 241);
+    color: whitesmoke
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.buzz{
+    background-color: rgb(57, 12, 100);
+    color: whitesmoke
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+    height: 150px;
+    box-sizing: border-box; 
+}
+
+fizzbuzz {
+    background-color: rgb(43, 6, 78);
+    color: whitesmoke
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+    height: 150px;
+    box-sizing: border-box; 
+}
+.regular {
+    background-color: rgb(41, 54, 241);
+    color: whitesmoke
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+    height: 150px;
+    box-sizing: border-box; 
+}
