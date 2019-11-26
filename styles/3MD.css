@@ -51,7 +51,7 @@ body {
     box-sizing: border-box; 
     border-radius: 10%;
 }
-button{
+.generator {
     background-color: rgb(204, 42, 204); /* Green */
     border: solid;
     border-color: rgb(43, 9, 43);
@@ -63,4 +63,23 @@ button{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+.cleaner {
+    background-color: rgb(204, 42, 204); /* Green */
+    border: solid;
+    border-color: rgb(43, 9, 43);
+    color: white;
+    border-radius: 10%;
+    padding: 15px 32px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.generator:disabled {
+    opacity: 0.3;
+    /* background-color: rgb(228, 131, 228);   
+    color: cadetblue; */
 }
