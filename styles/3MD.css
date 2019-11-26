@@ -20,6 +20,7 @@ body {
     width: 200px;
     height: 150px;
     box-sizing: border-box;
+    border-radius: 10%;
 }
 
 .buzz{
@@ -29,6 +30,7 @@ body {
     width: 200px;
     height: 150px;
     box-sizing: border-box; 
+    border-radius: 10%;
 }
 
 .fizzbuzz {
@@ -38,6 +40,7 @@ body {
     width: 200px;
     height: 150px;
     box-sizing: border-box; 
+    border-radius: 10%;
 }
 .regular {
     background-color: rgb(111, 118, 216);
@@ -46,6 +49,7 @@ body {
     width: 200px;
     height: 150px;
     box-sizing: border-box; 
+    border-radius: 10%;
 }
 button{
     background-color: rgb(204, 42, 204); /* Green */
