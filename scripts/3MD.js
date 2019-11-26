@@ -11,10 +11,10 @@ const buzzs = document.getElementById('buzz');
 const container = document.querySelector('#container');
 
 generators.onclick = () => {
-    const starts = parseFloat(start.value);
-    const stops = parseFloat(stop.value);
-    const fizz = parseFloat(fizzs.value);
-    const buzz = parseFloat(buzzs.value);
+    const starts = parseInt(start.value);
+    const stops = parseInt(stop.value);
+    const fizz = parseInt(fizzs.value);
+    const buzz = parseInt(buzzs.value);
 
    for (let i = starts; i <= stops; i++) {
     const miniDiv = document.createElement('div');
